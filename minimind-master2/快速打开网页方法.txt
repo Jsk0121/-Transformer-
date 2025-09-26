@@ -1,0 +1,2 @@
+cd D:\Desktop\minimind-master2\minimind-master2
+python server.py

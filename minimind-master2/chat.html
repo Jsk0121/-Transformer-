@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniMind Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- 左侧历史记录 -->
+        <aside class="sidebar">
+            <div class="new-chat">
+                <button id="newChatBtn" class="btn-new-chat">
+                    <span>新对话</span>
+                </button>
+            </div>
+            <div class="history-list" id="historyList">
+                <!-- 历史记录将通过 JS 动态插入 -->
+            </div>
+            <div class="user-info">
+                <span id="userEmail"></span>
+                <button id="logoutBtn" class="btn-logout">退出登录</button>
+            </div>
+        </aside>
+
+        <!-- 主聊天区域 -->
+        <main class="chat-main">
+            <div class="chat-messages" id="chatMessages">
+                <div class="welcome-message">
+                    <h1>MiniMind Chat</h1>
+                    <p>开始一段新的对话吧！</p>
+                </div>
+            </div>
+            
+            <div class="chat-input-container">
+                <div class="chat-input-box">
+                    <textarea 
+                        id="messageInput" 
+                        placeholder="输入消息..." 
+                        rows="1"
+                        class="chat-input"
+                    ></textarea>
+                    <button id="sendBtn" class="btn-send">发送</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="api.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html> 

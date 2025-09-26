@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniMind Chat - 登录/注册</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="login">登录</button>
+                <button class="tab-btn" data-tab="register">注册</button>
+            </div>
+
+            <form id="loginForm" class="auth-form">
+                <h2>欢迎回来</h2>
+                <div class="form-group">
+                    <input type="email" id="loginEmail" required placeholder="邮箱">
+                </div>
+                <div class="form-group">
+                    <input type="password" id="loginPassword" required placeholder="密码">
+                </div>
+                <button type="submit" class="btn-primary">登录</button>
+            </form>
+
+            <form id="registerForm" class="auth-form hidden">
+                <h2>创建新账号</h2>
+                <div class="form-group">
+                    <input type="email" id="registerEmail" required placeholder="邮箱">
+                </div>
+                <div class="form-group">
+                    <input type="password" id="registerPassword" required placeholder="密码">
+                </div>
+                <div class="form-group">
+                    <input type="password" id="confirmPassword" required placeholder="确认密码">
+                </div>
+                <button type="submit" class="btn-primary">注册</button>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="api.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html> 
