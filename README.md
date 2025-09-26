@@ -2,7 +2,7 @@
 
 # -本科写的一个项目，里面仿ChatGPT做了一个静态网页包含登入登出、注册、对话框（当然）、历史记录。纯纯是用来搞毕业设计的，里面的模型是minimind，由大佬jingyaogong手把手制作的一个小模型从0到1的训练，大家可以去好好学习一下。-
 
-# -首先code下了后直接放桌面-
+# -首先切换到master那里下了后直接放桌面-
 
 <img width="1068" height="708" alt="image" src="https://github.com/user-attachments/assets/e9ff7f1b-19e8-4f9b-a275-fc88378d6e5e" />
 
